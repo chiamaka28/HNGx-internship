@@ -71,7 +71,7 @@ body {
 }
 @media only screen and (max-width :400px ) {
     .container{
-        margin: 20px;
+        margin: 30px;
     }
     .profile-details{
         padding: 0 5px; 
