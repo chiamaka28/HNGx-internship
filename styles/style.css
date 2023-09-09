@@ -10,6 +10,7 @@ body {
   height: 100vh;
   background-color: antiquewhite;
   font-family: 'Raleway', sans-serif;
+  font-size: 18px;
 }
 .container {
   background-color: white;
@@ -31,7 +32,6 @@ body {
 }
 .profile-img {
   width: 250px;
-  /* height: 200px; */
 }
 .profile-details{
     display: flex;
@@ -42,19 +42,17 @@ body {
     margin: 10px 0;
     gap: 7px;
 }
+
 .profile-details div{
     display: flex;
     align-items: center;
     gap: 6px;
 }
-.profile-details span {
-  font-size: 20px;
-  text-align: center;
+.name p{
+  font-size: 40px;
   font-weight: 900;
 }
-.profile-details p {
-  font-size: 18px;
-}
+
 .link{
     display: flex;
     flex-direction: column;
@@ -71,14 +69,17 @@ body {
 }
 @media only screen and (max-width :400px ) {
     .container{
-        margin: 30px;
+        margin: 40px;
+    }
+    .name p {
+      font-size: 25px;
     }
     .profile-details{
         padding: 0 5px; 
     }
     .profile-img {
         width: 150px;
-        /* height: 200px; */
+       
       }
       .link{
         width: 50%;
