@@ -7,7 +7,6 @@ const currentUTCTime= document.querySelector('[data-testid="currentUTCTime"]')
 function updateDateTime() {
     const current = new Date();
     const currentDay = current.getDay();
-    // const currentMilliseconds = current.getUTCMilliseconds();
     const daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
   
     currentUTCTime.textContent = Date.now();
@@ -15,3 +14,6 @@ function updateDateTime() {
   }
   updateDateTime();
   setInterval(updateDateTime, 100);
+
+
+  console.log(Date.now())
